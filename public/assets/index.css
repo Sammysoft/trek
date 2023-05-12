@@ -690,7 +690,7 @@ font-weight: 12px;
 
 .footer-flex-wrapper{
 display:flex;
-flex-direction:column;
+flex-direction:row;
 align-items:center;
 justify-content: space-between;
 width: 80%;
@@ -707,14 +707,14 @@ padding: 10%;
 .footer-big-text{
   color:white;
   font-weight: 900;
-  font-size: 12px !important
+  font-size: 18px !important
 }
 .footer-small-text{
     color:white;
-  font-size: 8px !important;
+  font-size: 12px !important;
   font-family:"Poppins";
   opacity: .6;
-  padding-top: 10px;
+  padding-top: 14px;
 }
 
 .footer-copy{

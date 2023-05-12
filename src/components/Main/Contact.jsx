@@ -14,7 +14,7 @@ const Contact = () => {
   const sendMail = () => {
     console.log(payload)
     axios
-      .post(`https://trek-api.onrender.com/email/send`, payload)
+      .post(`http://localhost:8089/email/send`, payload)
       .then((res) => {
         alert("Email sent successfully")
       })
