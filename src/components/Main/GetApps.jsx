@@ -14,6 +14,7 @@ const GetApps = () => {
             ultricies id tortor purus mauris. Ligula molestie sed vivamus odio
           </div>
           <div
+          className="full"
             style={{
               display: "flex",
               flexDirection: "row",
@@ -23,10 +24,10 @@ const GetApps = () => {
             }}
           >
             <div>
-              <img src={play} width={"70px"} alt="play"/>
+              <img src={play} width={"150px"} alt="play"/>
             </div>
             <div>
-              <img src={app} width={"70px"} alt="app"/>
+              <img src={app} width={"150px"} alt="app"/>
             </div>
           </div>
         </div>

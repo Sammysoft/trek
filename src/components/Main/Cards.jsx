@@ -54,9 +54,13 @@ const Card = ({ icon, head, body }) => {
   return (
     <>
       <div className={"card"}>
-      <div className="mobile-icon">  <img src={icon} alt="gallery" width={30} height={30} /></div>
-      <div className="desktop-icon">  <img src={icon} alt="gallery" width={50} height={50} /></div>
-        <div style={{paddingLeft: "10px"}}>
+        <div className="mobile-icon">
+          <img src={icon} alt="gallery" width={50} height={50} />
+        </div>
+        <div className="desktop-icon">
+          <img src={icon} alt="gallery" width={50} height={50} />
+        </div>
+        <div style={{ paddingLeft: "10px" }}>
           <div className="card-header">{head}</div>
           <div className={"card-body"}>{body}</div>
         </div>

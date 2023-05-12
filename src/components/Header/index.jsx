@@ -19,7 +19,7 @@ const Header = () => {
             <div className="navbar-btn">Explore tools</div>
           </div>
         </div>
-        <div className="flexer">
+        <div className="flexer mobile-flex">
           <img src={phones} alt="phones" width={"100%"} height={"100%"} />
         </div>
       </div>

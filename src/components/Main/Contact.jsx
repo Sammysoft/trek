@@ -29,7 +29,8 @@ const Contact = () => {
       <br />
       <br />
       <div className="contact-wrapper">
-        <div className="flex">
+        <div style={{fontSize: "2rem"}}>Contact Form</div>
+        <div className="flex mobile-form">
           <div className="flexer">
             <div className="label">First Name</div>
             <div>
