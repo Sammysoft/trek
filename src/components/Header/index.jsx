@@ -20,7 +20,7 @@ const Header = () => {
           </div>
         </div>
         <div className="flexer">
-          <img src={phones} alt="phones" width={350} height={400} />
+          <img src={phones} alt="phones" width={"100%"} height={"100%"} />
         </div>
       </div>
     </>

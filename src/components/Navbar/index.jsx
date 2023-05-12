@@ -4,8 +4,8 @@ const NavBar = () => {
   return (
     <>
       <div className="navbar">
-        <div>
-          <img src="./assets/desktop-logo.png" alt="logo-desktop" />
+        <div className="nav-icon">
+          <img src="./assets/desktop-logo.png" alt="logo-desktop" width="100%" height="100%"/>
         </div>
         <div className="navbar-items">
             <div className="navbar-item">Home</div>
