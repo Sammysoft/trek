@@ -31,7 +31,7 @@ code {
 
   .header{
     height: 40vh !important;
-    width:70% !important;
+    width:100% !important;
     background-image: url('Background.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -45,7 +45,8 @@ code {
     padding-right: 5px !important;
   }
   .flexer{
-    width: 100%;
+    width: 100% !important;
+    text-align: center !important;
     /* height: 90%; */
   }
 
@@ -82,15 +83,16 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10vw;
+  padding-top: 10vh !important;
 }
 
 .big-text{
   color:#1C0E4C;
   font-weight: 900;
-  font-size: 2.5rem;
-  width: 60%;
-  text-align: center
+  font-size: 1rem !important;
+  width: 100% !important;
+
+  text-align: center;
 }
 
 .small-text{
@@ -98,7 +100,7 @@ code {
   width: 70%;
   font-family:"Poppins";
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.5rem !important;
   font-weight: 100;
   opacity: .7
 }
@@ -106,36 +108,38 @@ code {
 .details-big-text{
   color:#1C0E4C;
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 1rem !important;
   width: 100%;
-  text-align: left;
+  text-align: center !important;
 }
 
 .details-small-text{
   color: #292929;
   width: 100%;
   font-family:"Poppins";
-  text-align: justify;
-  font-size: .8rem;
+  text-align: center !important;
+  font-size: .5rem !important;
   font-weight: 100;
   opacity: .7
 }
 
 .cards-wrapper{
-  width: 60%;
+  width: 100% !important;
   padding: 5vh 0px 5vh 0px;
   display:flex;
   flex-direction: column;
   align-items:center;
   justify-content: space-between;
+  height: fit-content !important;
 }
 
 .card-flexer{
   display:flex;
-  flex-direction: row;
+  flex-direction: column !important;
   align-items:center;
   justify-content: space-between;
   padding: 10px;
+  width: 100% !important
 }
 
 .card{
@@ -146,31 +150,37 @@ code {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  height: 100px;
-  width: 280px;
-  margin: 10px
+  height: 45px !important;
+  width: 100%  !important;
+  margin: 5px !important;
 }
 
 .card-header{
   color:#1C0E4C;
   font-family: "Poppins";
   font-weight: 700;
-  font-size: 1.2rem
+  font-size: .5rem !important
+}
+.mobile-icon{
+  display: block !important
+}
+.desktop-icon{
+  display: none !important;
 }
 .card-body{
   font-family: "Poppins";
   opacity: .8;
   padding-top: 5px;
-  font-size: .7rem
+  font-size: .4rem !important
 }
 
 .details-wrapper{
-  margin: 10vw;
+  margin-top: 10vh !important;
   display:flex;
-  flex-direction: row;
+  flex-direction: column !important;
   align-items:center;
-  justify-content: space-evenly;
-  width: 100%
+  justify-content: center;
+  width: 100% !important;
 }
 
 .about-wrapper{
@@ -184,7 +194,7 @@ code {
 
 .about-card{
   border-radius: 8px;
-  height: 200px;
+  height:150px !important;
   display:flex;
   flex-direction: column;
   align-items:center;
@@ -195,16 +205,16 @@ code {
   font-family:"Poppins";
   color:white;
   font-weight: 900;
-  padding: 5px;
-  font-size: 1.3rem;
+  padding: 3px !important;
+  font-size: 0.6rem !important;
   text-align: center;
 }
 
 .about-text{
   font-family:"Poppins";
   color:white;
-  padding: 5px;
-  font-size: 0.7rem;
+  padding: 3px !important;
+  font-size: 0.3rem !important;
   text-align: center;
 }
 
@@ -212,14 +222,14 @@ code {
   width: 85%;
   border-radius: 10px;
   border: 2px solid black;
-  padding: 2px 10px 2px 10px;
+  padding: 2px 5px 2px 5px;
   margin-top: 5vh;
   cursor: pointer;
 }
 
 .faq-text{
 font-family:"Poppins";
-font-weight: 12px;
+font-weight: 8px !important;
 }
 
 .flex{
@@ -231,8 +241,8 @@ font-weight: 12px;
 
 .getapp-wrapper{
   margin: 10vh 0px 5vh 0px;
-  width: 85%;
-  padding: 20px;
+  width: 100% !important;
+  padding: 10px;
   background-image: url('Background.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -243,6 +253,10 @@ font-weight: 12px;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.mobile{
+  height: 300px !important;
 }
 
 .getapp-text{
@@ -258,10 +272,10 @@ font-weight: 12px;
 }
 
 .contact-wrapper{
-  width: 40%;
-  padding: 25px;
+  width: 100% !important;
+  padding: 50px !important;
   background-color: #F5F6FB;
-  border-radius: 15px;
+  border-radius: 5px !important;
 }
 
 .input{
@@ -269,7 +283,8 @@ font-weight: 12px;
  background-color: #D1E5FF;
  border: none;
  width: 90%;
- font-family: "Poppins"
+ font-family: "Poppins";
+ font-size: 10px
 }
 
 .input-long{
@@ -277,7 +292,8 @@ font-weight: 12px;
  background-color: #D1E5FF;
  border: none;
  width: 95%;
- font-family: "Poppins"
+ font-family: "Poppins";
+ font-size: 10px
 }
 .input-textarea{
   padding: 10px;
@@ -285,23 +301,26 @@ font-weight: 12px;
  border: none;
  width: 95%;
  height: 20vh;
- font-family: "Poppins"
+ font-family: "Poppins";
+ font-size: 10px
 }
 
 .label{
   font-family: "Poppins";
   color:#1C0E4C;
   font-weight:600;
-  margin-top: 5vh
+  margin-top: 5vh;
+  font-size: 10px
 }
 
 .contact-btn{
   background-color: #1C0E4C;
   color: white;
   padding: 10px 15px;
-  width: 30%;
+  width: 40%;
   margin-top:5vh;
   cursor: pointer;
+  font-size: 10px;
 }
 
 .footer-wrapper{
@@ -591,12 +610,12 @@ font-weight: 12px;
 .getapp-wrapper{
   margin: 10vh 0px 5vh 0px;
   width: 85%;
-  padding: 20px;
+  padding-top: 20px;
   background-image: url('Background.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 50vh;
+  height: fit-content;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
@@ -607,17 +626,17 @@ font-weight: 12px;
 .getapp-text{
   color:#D1E5FF;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 1rem !important;
 }
 
 .getapp-small-text{
   color:#D1E5FF;
-  font-size: 1rem;
+  font-size: 0.5rem !important;
   opacity: .6;
 }
 
 .contact-wrapper{
-  width: 40%;
+  width: 60% !important;
   padding: 25px;
   background-color: #F5F6FB;
   border-radius: 15px;
@@ -671,7 +690,7 @@ font-weight: 12px;
 
 .footer-flex-wrapper{
 display:flex;
-flex-direction:row;
+flex-direction:column;
 align-items:center;
 justify-content: space-between;
 width: 80%;
@@ -688,11 +707,11 @@ padding: 10%;
 .footer-big-text{
   color:white;
   font-weight: 900;
-  font-size: 18px
+  font-size: 12px !important
 }
 .footer-small-text{
     color:white;
-  font-size: 14px;
+  font-size: 8px !important;
   font-family:"Poppins";
   opacity: .6;
   padding-top: 10px;
@@ -704,4 +723,11 @@ padding: 10%;
   font-family:"Poppins";
   color: white;
   opacity: .7;
+}
+
+.mobile-icon{
+  display: none
+}
+.desktop-icon{
+  display: block
 }

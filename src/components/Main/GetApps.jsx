@@ -23,19 +23,19 @@ const GetApps = () => {
             }}
           >
             <div>
-              <img src={play} width={"100px"} alt="play"/>
+              <img src={play} width={"70px"} alt="play"/>
             </div>
             <div>
-              <img src={app} width={"100px"} alt="app"/>
+              <img src={app} width={"70px"} alt="app"/>
             </div>
           </div>
         </div>
-        <div className="flexer">
+        <div className="flexer mobile">
           <img
             src={phone}
             alt="isource"
-            width={"300px"}
-            height={"320px"}
+            width={"80%"}
+            height={"70%"}
           />
         </div>
       </div>
