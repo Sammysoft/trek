@@ -54,7 +54,7 @@ const Card = ({ icon, head, body }) => {
   return (
     <>
       <div className={"card"}>
-        <img src={icon} alt="image-gallery" width={50} height={50} />
+        <img src={icon} alt="gallery" width={50} height={50} />
         <div style={{paddingLeft: "10px"}}>
           <div className="card-header">{head}</div>
           <div className={"card-body"}>{body}</div>
