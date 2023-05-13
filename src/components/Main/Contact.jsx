@@ -11,12 +11,14 @@ const Contact = () => {
     firstname, lastname, email, message
   }
 
+  //https://trek-api.onrender.com
+
   const sendMail = () => {
     console.log(payload)
     axios
-      .post(`http://localhost:8089/email/send`, payload)
+      .post(`https://trek-api.onrender.com/email/send`, payload)
       .then((res) => {
-        alert("Email sent successfully")
+        alert(`${res.data.data}`)
       })
       .catch((error) => {
         alert(error.response.data.data);
