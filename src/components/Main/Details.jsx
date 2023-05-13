@@ -36,7 +36,7 @@ const Details = () => {
         <div className={"flexer"}>
           <Image image={data[0].image} />
         </div>
-        <div className={"flexer"}>
+        <div className={"flexer pusher"}>
           <Text textHead={data[0].textHead} textBody={data[0].textBody} />
         </div>
       </div>
@@ -44,7 +44,7 @@ const Details = () => {
         <div  className={"flexer"}>
           <Text textHead={data[1].textHead} textBody={data[1].textBody} />
         </div>
-        <div className={"flexer"}>
+        <div className={"flexer pusher"}>
           <Image image={data[1].image} />
         </div>
       </div>
@@ -52,7 +52,7 @@ const Details = () => {
         <div className={"flexer"}>
           <Image image={data[2].image} />
         </div>
-        <div className={"flexer"}>
+        <div className={"flexer pusher"}>
           <Text textHead={data[2].textHead} textBody={data[2].textBody} />
         </div>
       </div>

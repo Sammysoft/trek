@@ -31,7 +31,12 @@ code {
     display: none;
   }
   .navbar-items{display: none}
-
+  .faq-details{
+    padding: 20px;
+    font-family: "Poppins";
+    text-align: justify;
+    font-size: 1rem !important;
+  }
   .nav-item{
     font-family: "Poppins";
     font-size: 1.5rem;
@@ -214,7 +219,9 @@ code {
   justify-content: space-between !important;
   width: 100% !important;
 }
-
+.pusher{
+  margin-top: 10vh !important;
+}
 .about-wrapper{
   width:100% !important;
   padding: 15px;
@@ -775,4 +782,12 @@ padding: 10%;
 }
 .desktop-icon{
   display: block
+}
+
+.faq-details{
+  padding: 20px;
+  font-family: "Poppins";
+  text-align: justify;
+  font-size: 1.5rem;
+  width: 70%
 }
