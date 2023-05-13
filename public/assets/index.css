@@ -211,6 +211,19 @@ code {
   font-size: .8rem !important
 }
 
+.mobile-logo{
+  display: block !important;
+  padding: 0px !important;
+}
+.desk-logo{
+  display: none !important;
+  padding: 0px !important
+}
+
+.order{
+  order: 1 !important;
+}
+
 .details-wrapper{
   margin-top: 10vh !important;
   display:flex;
@@ -502,7 +515,7 @@ other stuffs */
   flex-direction: row;
   align-items:center;
   justify-content: space-between;
-  width: 50%;
+  width: 70%;
 }
 
 .main-wrapper{
@@ -594,7 +607,7 @@ other stuffs */
 }
 
 .details-wrapper{
-  margin: 10vw;
+  /* margin: 10vw; */
   display:flex;
   flex-direction: row;
   align-items:center;
@@ -790,4 +803,11 @@ padding: 10%;
   text-align: justify;
   font-size: 1.5rem;
   width: 70%
+}
+
+.mobile-logo{
+  display: none;
+}
+.desk-logo{
+  display: block;
 }

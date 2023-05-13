@@ -40,12 +40,24 @@ const Details = () => {
           <Text textHead={data[0].textHead} textBody={data[0].textBody} />
         </div>
       </div>
-      <div className="details-wrapper">
-        <div  className={"flexer"}>
-          <Text textHead={data[1].textHead} textBody={data[1].textBody} />
+      <div className="desk-logo">
+        <div className="details-wrapper">
+          <div className={"flexer"}>
+            <Text textHead={data[1].textHead} textBody={data[1].textBody} />
+          </div>
+          <div className={"flexer pusher"}>
+            <Image image={data[1].image} />
+          </div>
         </div>
-        <div className={"flexer pusher"}>
-          <Image image={data[1].image} />
+      </div>
+      <div className="mobile-logo">
+        <div className="details-wrapper">
+          <div className={"flexer"}>
+            <Image image={data[1].image} />
+          </div>
+          <div className={"flexer pusher"}>
+            <Text textHead={data[1].textHead} textBody={data[1].textBody} />
+          </div>
         </div>
       </div>
       <div className="details-wrapper">
@@ -63,7 +75,7 @@ const Details = () => {
 const Image = ({ image }) => {
   return (
     <>
-      <img src={image} alt="phone" width={"70%"} height={"70%"}/>
+      <img src={image} alt="phone" width={"70%"} height={"70%"} />
     </>
   );
 };

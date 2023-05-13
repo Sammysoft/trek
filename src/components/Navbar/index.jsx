@@ -6,12 +6,22 @@ const NavBar = () => {
     <>
       <div className="navbar">
         <div className="nav-icon">
-          <img
-            src="./assets/desktop-logo.png"
-            alt="logo-desktop"
-            width="100%"
-            height="100%"
-          />
+          <div className="desk-logo">
+            <img
+              src="./assets/desktop-logo.png"
+              alt="logo-desktop"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <div className="mobile-logo">
+            <img
+              src="./assets/foot_logo.svg"
+              alt="logo-desktop"
+              width="100%"
+              height="100%"
+            />
+          </div>
         </div>
         <div className="navbar-items">
           <div className="navbar-item">Home</div>
@@ -54,7 +64,7 @@ const NavBar = () => {
             height: "35vh",
             top: "10vh",
             left: "5%",
-            borderRadius: "20px"
+            borderRadius: "20px",
           }}
         >
           <div className="nav-item">Home</div>
